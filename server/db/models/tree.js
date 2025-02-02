@@ -17,8 +17,7 @@ module.exports = (sequelize, DataTypes) => {
     tree: {
       type: DataTypes.STRING,
       unique: true,
-      allowNull: false,
-      isEmpty: false
+      allowNull: false
     },
     location: DataTypes.STRING,
     heightFt:{
